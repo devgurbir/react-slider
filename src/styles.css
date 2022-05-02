@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.images {
+  width: 100%;
+  height: 500px;
+  border: 1px solid red;
+  display: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .singleImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: none;
+} */
+
+.active {
+  z-index: 20;
+  display: block;
+}
+
+.singleImage {
+  flex-grow: 1;
+}
+
+.moveBtns {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.left {
+  left: 10px
+}
+
+.right {
+  right: 10px
+}
